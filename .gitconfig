@@ -1,0 +1,19 @@
+[core]
+  editor = vim
+[alias]
+  stat = log --stat
+  br = branch
+  co = checkout
+  cm = checkout master
+  st = status
+  sub = submodule
+  ci = commit -v
+  sup = submodule update -i
+[color]
+  ui = auto
+[push]
+  default = current
+[pull]
+  rebase = true
+[include]
+  path = .gitconfig.local
